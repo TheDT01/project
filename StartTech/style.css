@@ -1,0 +1,154 @@
+* {
+    margin: 0 ;
+    font-family: Arial;
+    border: border-box ;
+}
+
+.navbar {
+    height: 82px;
+    background-color: #081621;
+
+}
+
+.nav-logo {
+    height: 52px;
+    width: 117px;
+}
+
+.logo {
+    position: relative;
+    top: 15px;
+    left: 307px;
+    background-image: url(main_logo.png);
+    background-size: cover;
+    height: 52px;
+    width: 117px;
+    cursor: pointer;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+
+.main_bar {
+    position: relative;
+    bottom: 32px;
+    left: 467px;
+    border-radius: 4px;
+    height: 42px;
+    width: 580px;
+    background-color: white;
+}
+
+.icon {
+    position: relative;
+    bottom: 5px;
+    left: 551px;
+    height: 24px;
+    width: 24px;
+}
+
+.text_search {
+    font-family:'Trebuchet MS', sans-serif;
+    position:relative;
+    top: 13px;
+    left: 20px;
+    font-size: 15px;
+    color: rgb(122, 122, 122);
+}
+
+.gift_icon {
+    position: relative;
+    bottom: 60px;
+    left: 1085px;
+}
+
+.text_1 {
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+
+.text_2 {
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    color: rgb(122, 122, 122);
+}
+
+.block_1 {
+    position: relative;
+    bottom: 87px;
+    left: 1116px;
+}
+
+.block_2 {
+    position: relative;
+    bottom: 83px;
+    left: 1116px;
+}
+
+
+.flash {
+    position: relative;
+    bottom: 107px;
+    left: 1208px;
+}
+
+.block_3 {
+    position: relative;
+    bottom: 134px;
+    left: 1241px;
+}
+
+.block_4 {
+    position: relative;
+    bottom: 130px;
+    left: 1241px;
+}
+
+.user_logo {
+    position: relative;
+    bottom: 153px;
+    left: 1348px;
+}
+
+.block_5 {
+    position: relative;
+    bottom: 180px;
+    left: 1380px;
+}
+
+.block_6 {
+    position: relative;
+    bottom: 176px;
+    left: 1380px;
+}
+
+.PC_builder {
+    font-family:'Trebuchet MS', sans-serif;
+    color: white;
+    position: relative;
+    bottom: 203px;
+    left: 1510px;
+    font-size: 14px;
+}
+
+.border_2 {
+    background: linear-gradient(45deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border: none;
+    line-height: 42px;
+    border: 2px solid white;
+    height: 42px;
+    width: 108.22px;
+}
+
+.border_2:hover {
+    border: 2px solid white;
+
+}
