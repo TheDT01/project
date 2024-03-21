@@ -57,37 +57,43 @@
     left: 20px;
     font-size: 15px;
     color: rgb(122, 122, 122);
+    cursor: text;
 }
 
 .gift_icon {
     position: relative;
     bottom: 60px;                            /* offer icon */
     left: 1085px;
+    cursor: pointer;
 }
 
 .text_1 {
     font-family:'Trebuchet MS', sans-serif;
     font-size: 15px;                    /* main text line */
     color: white;
+    cursor: pointer;
     
 }
 
 .text_2 {
     font-family:'Trebuchet MS', sans-serif;
     font-size: 11px;                         /* bit blanded text property */
-    color: rgb(122, 122, 122);               
+    color: rgb(122, 122, 122);
+    cursor: pointer;               
 }
 
 .block_1 {
     position: relative;
     bottom: 87px;    /* text = Offer */
     left: 1116px; 
+    cursor: pointer;
 }
 
 .block_2 {
     position: relative;
     bottom: 83px;             /* text = latest offer */
     left: 1116px;
+    cursor: pointer;
 }
 
 
@@ -95,24 +101,28 @@
     position: relative;
     bottom: 107px;            /*flash icon */
     left: 1208px;
+    cursor: pointer;
 }
 
 .block_3 {
     position: relative;
     bottom: 134px;            /* text = happy hour */
     left: 1241px;
+    cursor: pointer;
 }
 
 .block_4 {
     position: relative;
     bottom: 130px;            /* text = Speacial Deals */
     left: 1241px;
+    cursor: pointer;
 }
 
 .user_logo {
     position: relative;
     bottom: 153px;           /* account logo */
     left: 1348px;
+    cursor: pointer;
 }
 
 .block_5 {
@@ -121,10 +131,15 @@
     left: 1380px;
 }
 
+
 .block_6 {
     position: relative;
     bottom: 176px;           /* text = Register and login */
     left: 1380px;
+}
+
+.block_6:hover {
+    color: #ef4a22;
 }
 
 .PC_builder {
