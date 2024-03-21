@@ -4,6 +4,9 @@
     border: border-box ;
 }
 
+
+/* header */
+
 .navbar {
     height: 82px;
     background-color: #081621;   /* main bar */
@@ -166,4 +169,164 @@
     left: 1490px;
     border-radius: 4px;
     text-align: center;
+    cursor:pointer;
+}
+
+
+
+/* Categories */
+
+.cat_box {
+    height: 50px;
+    background-color: #ffffff;   /* cat bar */
+    border: .15px solid #a09d9d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+
+}
+.text_3 {
+    padding: 0 7px 0 7px;
+    line-height: 50px;
+    white-space: nowrap;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    position: relative
+}
+
+.cat:hover {
+    color: #ef4a22;
+    cursor: pointer;
+}
+
+
+.cat_1 {
+    position: relative;
+    bottom: 0px;
+    left: 298px;
+    cursor: pointer;
+
+}
+
+.cat_2 {
+    position: relative;
+    bottom: 50px;
+    left: 365px;
+    cursor: pointer;
+
+}
+.cat_3 {
+    position: relative;
+    bottom: 100px;
+    left: 425px;
+    cursor: pointer;
+
+}
+.cat_4 {
+    position: relative;
+    bottom: 150px;
+    left: 515px;
+    cursor: pointer;
+
+}
+.cat_5 {
+    position: relative;
+    bottom: 200px;
+    left: 578px;
+    cursor: pointer;
+
+}
+.cat_6 {
+    position: relative;
+    bottom: 250px;
+    left: 618px;
+    cursor: pointer;
+
+}
+.cat_7 {
+    position: relative;
+    bottom: 300px;
+    left: 668px;
+    cursor: pointer;
+
+}
+.cat_8 {
+    position: relative;
+    bottom: 350px;
+    left: 718px;
+    cursor: pointer;
+
+}
+.cat_9 {
+    position: relative;
+    bottom: 400px;
+    left: 848px;
+    cursor: pointer;
+
+}
+.cat_10 {
+    position: relative;
+    bottom: 450px;
+    left: 908px;
+    cursor: pointer;
+
+}
+.cat_11 {
+    position: relative;
+    bottom: 500px;
+    left: 978px;
+    cursor: pointer;
+
+}
+.cat_12 {
+    position: relative;
+    bottom: 550px;
+    left: 1065px;
+    cursor: pointer;
+
+}
+.cat_13 {
+    position: relative;
+    bottom: 600px;
+    left: 1135px;
+    cursor: pointer;
+
+}
+.cat_14 {
+    position: relative;
+    bottom: 650px;
+    left: 1258px;
+    cursor: pointer;
+
+}
+.cat_15 {
+    position: relative;
+    bottom: 700px;
+    left: 1348px;
+    cursor: pointer;
+
+}
+.cat_16 {
+    position: relative;
+    bottom: 750px;
+    left: 1408px;
+    cursor: pointer;
+
+}
+.cat_17 {
+    position: relative;
+    bottom: 800px;
+    left: 1468px;
+    cursor: pointer;
+
+}
+.cat_18 {
+    position: relative;
+    bottom: 850px;
+    left: 1500px;
+    cursor: pointer;
+
 }
