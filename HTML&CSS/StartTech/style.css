@@ -1,449 +1,630 @@
 * {
-    margin: 0 ;
-    font-family: Arial;
-    border: border-box ;
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
 }
 
+body {
+  background: #f2f4f8;
+}
 
 /* header */
 
 .navbar {
-    height: 82px;
-    background-color: #081621;   /* main bar */
-
+  height: 82px;
+  background-color: #081621; /* main bar */
 }
 
-.nav-logo {                /* logo */
-    height: 52px;
-    width: 117px; 
+.nav-logo {
+  /* logo */
+  height: 52px;
+  width: 117px;
 }
 
 .logo {
-    position: relative;
-    top: 15px;
-    left: 307px;
-    background-image: url(main_logo.png);
-    background-size: cover;
-    height: 52px;
-    width: 117px;
-    cursor: pointer;
+  position: relative;
+  top: 15px;
+  left: 307px;
+  background-image: url(main_logo.png);
+  background-size: cover;
+  height: 52px;
+  width: 117px;
+  cursor: pointer;
 }
 
 .border {
-    border: 2px solid transparent;
+  border: 2px solid transparent;
 }
 
 .main_bar {
-    position: relative;
-    bottom: 32px;
-    left: 467px;
-    border-radius: 4px;
-    height: 42px;
-    width: 580px;
-    background-color: white;
-    cursor: text;
+  position: relative;
+  bottom: 32px;
+  left: 467px;
+  border-radius: 4px;
+  height: 42px;
+  width: 580px;
+  background-color: white;
+  cursor: text;
 }
 
 .icon {
-    position: relative;
-    bottom: 5px;
-    left: 551px;              
-    height: 24px;
-    width: 24px;
-    cursor: pointer;
+  position: relative;
+  bottom: 5px;
+  left: 551px;
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
 }
 
 .text_search {
-    font-family:'Trebuchet MS', sans-serif;
-    position:relative;
-    top: 13px;                                   /* word Search */
-    left: 20px;
-    font-size: 15px;
-    color: rgb(122, 122, 122);
-    cursor: text;
+  font-family: "Trebuchet MS", sans-serif;
+  position: relative;
+  top: 13px; /* word Search */
+  left: 20px;
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  cursor: text;
 }
 
 .gift_icon {
-    position: relative;
-    bottom: 60px;                            /* offer icon */
-    left: 1085px;
-    cursor: pointer;
+  position: relative;
+  bottom: 60px; /* offer icon */
+  left: 1085px;
+  cursor: pointer;
 }
 
 .text_1 {
-    font-family:'Trebuchet MS', sans-serif;
-    font-size: 15px;                    /* main text line */
-    color: white;
-    cursor: pointer;
-    
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 15px; /* main text line */
+  color: white;
+  cursor: pointer;
 }
 
 .text_2 {
-    font-family:'Trebuchet MS', sans-serif;
-    font-size: 11px;                         /* bit blanded text property */
-    color: rgb(122, 122, 122);
-    cursor: pointer;               
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 11px; /* bit blanded text property */
+  color: rgb(122, 122, 122);
+  cursor: pointer;
 }
 
 .block_1 {
-    position: relative;
-    bottom: 87px;    /* text = Offer */
-    left: 1116px; 
-    cursor: pointer;
+  position: relative;
+  bottom: 87px; /* text = Offer */
+  left: 1116px;
+  cursor: pointer;
 }
 
 .block_2 {
-    position: relative;
-    bottom: 83px;             /* text = latest offer */
-    left: 1116px;
-    cursor: pointer;
+  position: relative;
+  bottom: 83px; /* text = latest offer */
+  left: 1116px;
+  cursor: pointer;
 }
 
-
 .flash {
-    position: relative;
-    bottom: 107px;            /*flash icon */
-    left: 1208px;
-    cursor: pointer;
+  position: relative;
+  bottom: 107px; /*flash icon */
+  left: 1208px;
+  cursor: pointer;
 }
 
 .block_3 {
-    position: relative;
-    bottom: 134px;            /* text = happy hour */
-    left: 1241px;
-    cursor: pointer;
+  position: relative;
+  bottom: 134px; /* text = happy hour */
+  left: 1241px;
+  cursor: pointer;
 }
 
 .block_4 {
-    position: relative;
-    bottom: 130px;            /* text = Speacial Deals */
-    left: 1241px;
-    cursor: pointer;
+  position: relative;
+  bottom: 130px; /* text = Speacial Deals */
+  left: 1241px;
+  cursor: pointer;
 }
 
 .user_logo {
-    position: relative;
-    bottom: 153px;           /* account logo */
-    left: 1348px;
-    cursor: pointer;
+  position: relative;
+  bottom: 153px; /* account logo */
+  left: 1348px;
+  cursor: pointer;
 }
 
 .block_5 {
-    position: relative;
-    bottom: 180px;       /* text = Account */
-    left: 1380px;
+  position: relative;
+  bottom: 180px; /* text = Account */
+  left: 1380px;
 }
 
-
 .block_6 {
-    position: relative;
-    bottom: 176px;           /* text = Register and login */
-    left: 1380px;
+  position: relative;
+  bottom: 176px; /* text = Register and login */
+  left: 1380px;
 }
 
 .block_6:hover {
-    color: #ef4a22;
+  color: #ef4a22;
 }
 
 .PC_builder {
-    font-family:'Trebuchet MS', sans-serif;
-    color: white;
-    position: relative;          /* TEXT =  PC builder */
-    bottom: 203px;                         
-    left: 1510px;
-    font-size: 14px;
-    font-weight: 600;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  position: relative; /* TEXT =  PC builder */
+  bottom: 203px;
+  left: 1510px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .border_2 {
-    background: linear-gradient(45deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    border: none;
-    line-height: 42px;
-    border: 0px solid white;
-    height: 42px;                /* border property of PC Builder */
-    width: 108.22px;
-    position: relative;
-    bottom: 215px;
-    left: 1490px;
-    border-radius: 4px;
-    text-align: center;
-    cursor:pointer;
+  background: linear-gradient(
+    45deg,
+    #00237e,
+    #3749bb,
+    #0bc1e9,
+    #3749bb,
+    #00237e
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  border: none;
+  line-height: 42px;
+  border: 0px solid white;
+  height: 42px; /* border property of PC Builder */
+  width: 108.22px;
+  position: relative;
+  bottom: 215px;
+  left: 1490px;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
 }
-
-
 
 /* Categories */
 
 .cat_box {
-    height: 50px;
-    background-color: #ffffff;   /* cat bar */
-    border: .15px solid #a09d9d;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: block;
-
+  height: 50px;
+  background-color: #ffffff; /* cat bar */
+  border: 0.15px solid #a09d9d;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: block;
 }
 .text_3 {
-    padding: 0 7px 0 7px;
-    line-height: 50px;
-    white-space: nowrap;
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #222;
-    position: relative
+  padding: 0 7px 0 7px;
+  line-height: 50px;
+  white-space: nowrap;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+  position: relative;
 }
 
 .cat:hover {
-    color: #ef4a22;
-    cursor: pointer;
+  color: #ef4a22;
+  cursor: pointer;
 }
 
-
 .cat_1 {
-    position: relative;
-    bottom: 0px;
-    left: 298px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 0px;
+  left: 298px;
+  cursor: pointer;
 }
 
 .cat_2 {
-    position: relative;
-    bottom: 50px;
-    left: 365px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 50px;
+  left: 365px;
+  cursor: pointer;
 }
 .cat_3 {
-    position: relative;
-    bottom: 100px;
-    left: 425px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 100px;
+  left: 425px;
+  cursor: pointer;
 }
 .cat_4 {
-    position: relative;
-    bottom: 150px;
-    left: 515px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 150px;
+  left: 515px;
+  cursor: pointer;
 }
 .cat_5 {
-    position: relative;
-    bottom: 200px;
-    left: 578px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 200px;
+  left: 578px;
+  cursor: pointer;
 }
 .cat_6 {
-    position: relative;
-    bottom: 250px;
-    left: 618px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 250px;
+  left: 618px;
+  cursor: pointer;
 }
 .cat_7 {
-    position: relative;
-    bottom: 300px;
-    left: 668px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 300px;
+  left: 668px;
+  cursor: pointer;
 }
 .cat_8 {
-    position: relative;
-    bottom: 350px;
-    left: 718px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 350px;
+  left: 718px;
+  cursor: pointer;
 }
 .cat_9 {
-    position: relative;
-    bottom: 400px;
-    left: 848px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 400px;
+  left: 848px;
+  cursor: pointer;
 }
 .cat_10 {
-    position: relative;
-    bottom: 450px;
-    left: 908px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 450px;
+  left: 908px;
+  cursor: pointer;
 }
 .cat_11 {
-    position: relative;
-    bottom: 500px;
-    left: 978px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 500px;
+  left: 978px;
+  cursor: pointer;
 }
 .cat_12 {
-    position: relative;
-    bottom: 550px;
-    left: 1065px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 550px;
+  left: 1065px;
+  cursor: pointer;
 }
 .cat_13 {
-    position: relative;
-    bottom: 600px;
-    left: 1135px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 600px;
+  left: 1135px;
+  cursor: pointer;
 }
 .cat_14 {
-    position: relative;
-    bottom: 650px;
-    left: 1258px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 650px;
+  left: 1258px;
+  cursor: pointer;
 }
 .cat_15 {
-    position: relative;
-    bottom: 700px;
-    left: 1348px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 700px;
+  left: 1348px;
+  cursor: pointer;
 }
 .cat_16 {
-    position: relative;
-    bottom: 750px;
-    left: 1408px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 750px;
+  left: 1408px;
+  cursor: pointer;
 }
 .cat_17 {
-    position: relative;
-    bottom: 800px;
-    left: 1468px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 800px;
+  left: 1468px;
+  cursor: pointer;
 }
 .cat_18 {
-    position: relative;
-    bottom: 850px;
-    left: 1500px;
-    cursor: pointer;
-
+  position: relative;
+  bottom: 850px;
+  left: 1500px;
+  cursor: pointer;
 }
-
 
 /* Products */
 
-
 .compare {
-
-    height: 268px;
-    width: 300px;
-    background-color: #ffe8a1;
-    position: relative;
-    left: 1297px;
-    top: 30px;
+  height: 268px;
+  width: 300px;
+  background-color: #ffe8a1;
+  position: relative;
+  left: 1297px;
+  top: 30px;
 }
 
 .compare_text {
-    color: black;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 600;
-    position: relative;
-    top: 25px;
-    right: 0px;
-    
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  top: 25px;
+  right: 0px;
 }
 
 .compare_text_2 {
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    position: relative;
-    top: 30px;
-    right: 0px;
-    opacity: .5;   
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  right: 0px;
+  opacity: 0.5;
 }
 
 .bar_1 {
-    height: 42px;
-    width: 240px;
-    background-color: white;
-    border-radius: 4px;
-    position: relative;
-    text-align: left;
-    top: 48px;
-    left: 28px;
-
+  height: 42px;
+  width: 240px;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  text-align: left;
+  top: 48px;
+  left: 28px;
 }
 
 .bar_2 {
-    height: 42px;
-    width: 240px;
-    border-radius: 4px;
-    background-color: white;
-    position: relative;
-    text-align: left;
-    top: 63px;
-    left: 28px;
-
+  height: 42px;
+  width: 240px;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  text-align: left;
+  top: 63px;
+  left: 28px;
 }
 
 .icon_1 {
-    position: relative;
-    left: 90%;
-    bottom: 3px;
-    
+  position: relative;
+  left: 90%;
+  bottom: 3px;
 }
 
 .icon_2 {
-    position: relative;
-    left: 90%;
-    bottom: 3px;
-    
+  position: relative;
+  left: 90%;
+  bottom: 3px;
 }
 
 .view_button {
-    height: 42px;
-    width: 240px;
-    border-radius: 4px;
-    background-color: #ffe8a1;
-    position: relative;
-    text-align: center;
-    top: 78px;
-    left: 28px;
-    cursor: pointer;
-    border: 2px solid #3749bb;
-    overflow: hidden;
-    transition: background-color 0.3s ease;
-  }
-  
-  .view_text {
-    height: 46px;
-    width: 240px;
-    color: #3749bb;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    font-weight: 600;
-    position: relative;
-    top: 10px;
-    right: 0px;
-    transition: color 0.3s ease;
-  }
-  
-  .view_button:hover {
-    background-color: #3749bb;
-  }
-  
-  .view_button:hover .view_text {
-    color: white;
-  }
-  
-  /* Default color for .view_text */
-  .view_text {
-    color: #3749bb;
-  }
-  
+  height: 42px;
+  width: 240px;
+  border-radius: 4px;
+  background-color: #ffe8a1;
+  position: relative;
+  text-align: center;
+  top: 78px;
+  left: 28px;
+  cursor: pointer;
+  border: 2px solid #3749bb;
+  overflow: hidden;
+  transition: background-color 0.3s ease;
+}
+
+.view_text {
+  height: 46px;
+  width: 240px;
+  color: #3749bb;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  top: 10px;
+  right: 0px;
+  transition: color 0.3s ease;
+}
+
+.view_button:hover {
+  background-color: #3749bb;
+}
+
+.view_button:hover .view_text {
+  color: white;
+}
+
+/* Default color for .view_text */
+.view_text {
+  color: #3749bb;
+}
+
+/* banner */
+
+.banner {
+  height: 500px;
+  width: 982px;
+  position: relative;
+  bottom: 240px;
+  left: 280px;
+  box-shadow: #222;
+}
+
+/* laptor finder */
+.laptop_finder {
+  position: relative;
+  bottom: 440px;
+  left: 1300px;
+}
+
+/*service box */
+
+.service {
+  height: 80px;
+  position: relative;
+  bottom: 383px;
+}
+
+.laptop {
+  width: 300px;
+  height: 100%;
+  position: relative;
+  left: 280px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.laptop_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  background: #ef4a23;
+}
+
+.turu_icon {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.srt1 {
+  position: relative;
+  font-size: 16px;
+  bottom: 45px;
+  left: 80px;
+  color: black;
+}
+
+.srt2 {
+  font-size: 16px;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+}
+
+.Complain {
+  width: 300px;
+  height: 100%;
+  position: relative;
+  left: 600px;
+  bottom: 80px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.complain_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  background: rgb(239, 74, 35);
+}
+
+.turu_complain_icon {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.srt3 {
+  position: relative;
+  font-size: 16px;
+  bottom: 45px;
+  left: 80px;
+  color: black;
+}
+
+.srt4 {
+  font-size: 16px;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+}
+
+.online_support {
+  width: 300px;
+  height: 100%;
+  position: relative;
+  left: 930px;
+  bottom: 160px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.online_support_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  background: rgb(239, 74, 35);
+}
+
+.round1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  bottom: 5px;
+  right: 10px;
+}
+
+.chomu {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.turu_online_support_icon {
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+
+.srt5 {
+  position: relative;
+  font-size: 16px;
+  bottom: 45px;
+  left: 80px;
+  color: black;
+}
+
+.srt6 {
+  font-size: 16px;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+}
+
+
+.service_center {
+  width: 300px;
+  height: 80px;
+  position: relative;
+  left: 1250px;
+  bottom: 465px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.service_center_icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: relative;
+  left: 15px;
+  top: 15px;
+  background: rgb(239, 74, 35);
+}
+
+.turu_service_center_icon {
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.srt7 {
+  position: relative;
+  font-size: 16px;
+  bottom: 45px;
+  left: 80px;
+  color: black;
+}
+
+.srt8 {
+  font-size: 16px;
+  position: relative;
+  left: 85px;
+  bottom: 55px;
+}
