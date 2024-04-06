@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(blue, darkblue, ) ;
+}
+
+
+
+
 .meme-generator {
     font-family: "Roboto", sans-serif;
     text-align: center;
