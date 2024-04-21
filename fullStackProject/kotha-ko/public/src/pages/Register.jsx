@@ -1,7 +1,13 @@
 import React from "react";
-
+import styled from "styled-components";
 function Register() {
-  return <div>Register</div>;
+  return (
+    <>
+      <FormContainer></FormContainer>
+    </>
+  );
 }
+
+const FormContainer = styled.div``;
 
 export default Register;
