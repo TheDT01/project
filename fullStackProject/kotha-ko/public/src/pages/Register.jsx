@@ -44,6 +44,7 @@ function Register() {
   };
 
   const handleValidation = () => {
+    console.log("in validations", registerRoute);
     const { password, confirmPassword, username, email } = values;
     if (password !== confirmPassword) {
       toast.error(
