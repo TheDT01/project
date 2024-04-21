@@ -1,13 +1,62 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Logo from "../assets/logo.svg";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import axios from "axios";
+import { registerRoute } from "../utils/APIRoutes";
 function Register() {
-  const handleSubmit = (event) => {
+  const [values, setValues] = useState({
+    username: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+  });
+
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    alert("form ");
+    if (handleValidation()) {
+      const { password, confirmPassword, username, email } = values;
+      const { data } = await axios.post(registerRoute, {
+        username,
+        email,
+        password,
+      });
+    }
   };
 
-  const handleChange = (event) => {};
+  const ToastOptions = {
+    position: "bottom-right",
+    autoClose: 8000,
+    pauseOnHover: true,
+    draggable: true,
+    theme: "dark",
+  };
+
+  const handleValidation = () => {
+    const { password, confirmPassword, username, email } = values;
+    if (password !== confirmPassword) {
+      toast.error(
+        "password and confirm password should be the same.",
+        ToastOptions
+      );
+      return false;
+    } else if (username.length < 3) {
+      toast.error("Username must be at least 3 characters", ToastOptions);
+      return false;
+    } else if (password.length < 8) {
+      toast.error("Password must be at least 8 characters", ToastOptions);
+      return false;
+    } else if (email === "") {
+      toast.error("Email is required", ToastOptions);
+      return false;
+    }
+    return true;
+  };
+
+  const handleChange = (event) => {
+    setValues({ ...values, [event.target.name]: event.target.value });
+  };
 
   return (
     <>
@@ -44,10 +93,14 @@ function Register() {
 
           <button type="submit"> create user</button>
           <span>
-            Already have an account ? <a href="/login">Login.</a>
+            Already have an account ?{" "}
+            <a href="/login" target="_blank">
+              Login.
+            </a>
           </span>
         </form>
       </FormContainer>
+      <ToastContainer />
     </>
   );
 }
